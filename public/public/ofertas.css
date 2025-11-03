@@ -1,0 +1,134 @@
+/* ==============================
+   ESTILO GENERAL - Jewelry Girl 💎
+   Paleta esmeralda
+============================== */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #004d40; /* Verde esmeralda oscuro */
+  color: #ffffff;
+}
+
+/* ==============================
+   ENCABEZADO
+============================== */
+header {
+  background-color: #00332d; /* Verde más profundo */
+  color: #f1f1f1;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+/* ==============================
+   BOTONES
+============================== */
+button,
+.btn-azul,
+.btn-menu {
+  background-color: #79d8b5; /* Verde menta */
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  color: #00332d;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover,
+.btn-azul:hover,
+.btn-menu:hover {
+  background-color: #5ac3a1;
+  transform: translateY(-2px);
+}
+
+/* ==============================
+   SECCIÓN PRINCIPAL
+============================== */
+main {
+  padding: 40px;
+  text-align: center;
+}
+
+h2 {
+  color: #b2f5ea;
+  font-size: 1.6rem;
+  margin-bottom: 25px;
+}
+
+/* ==============================
+   GRID DE PRODUCTOS
+============================== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  justify-items: center;
+}
+
+/* ==============================
+   TARJETAS DE PRODUCTOS
+============================== */
+.producto {
+  background-color: #02675b;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  width: 240px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.producto:hover {
+  transform: scale(1.05);
+}
+
+.producto img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid #b2f5ea;
+  margin-bottom: 12px;
+}
+
+.producto p {
+  margin: 5px 0;
+  color: #e0f2f1;
+}
+
+/* Precio tachado */
+del {
+  color: #b2dfdb;
+}
+
+/* ==============================
+   BOTONES DENTRO DE TARJETAS
+============================== */
+.producto button {
+  background-color: #b2f5ea;
+  color: #004d40;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.producto button:hover {
+  background-color: #9be5d4;
+}

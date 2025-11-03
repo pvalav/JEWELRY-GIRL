@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="/public/login.css" />
+  </head>
+  <body>
+    <header><h1>JEWELRY</h1></header>
+
+    <main>
+      <form method="POST" action="/login">
+        <label>Nombre y correo:</label>
+        <input type="text" name="correo" placeholder="Correo o nombre" required />
+        <label>Contraseña:</label>
+        <input type="password" name="password" placeholder="Contraseña" required />
+     <a href="/inicio"><button type="button" class="btn-azul">Aceptar</button></a>
+      </form>
+      <p>¿No tienes cuenta?</p>
+     <a href="/registro"><button type="button" class="btn-azul">Registrarse</button></a>
+    </main>
+
+  </body>
+</html>
