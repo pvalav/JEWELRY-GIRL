@@ -1,0 +1,81 @@
+/* Asegura que html y body ocupen toda la altura */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor principal */
+.bienvenida-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ocupa toda la ventana visible */
+  width: 100vw; /* Ocupa todo el ancho */
+  text-align: center;
+  background: linear-gradient(to bottom right, #b8d9ff, #1681e6);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Título */
+.bienvenida-titulo {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+.bienvenida-titulo span {
+  font-weight: bold;
+  color: #a4d1f7;
+}
+
+/* Texto descriptivo */
+.bienvenida-texto {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-bottom: 2.5rem;
+  color: #555;
+  line-height: 1.6;
+  padding: 0 1rem;
+}
+
+/* Botones */
+.bienvenida-botones {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  padding: 0.8rem 1.8rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn.primario {
+  background-color: #1378eb;
+  color: white;
+}
+
+.btn.primario:hover {
+  background-color: #aac5e7;
+}
+
+.btn.secundario {
+  background-color: #1378eb ;
+  color: white;
+  
+}
+
+.btn.secundario:hover {
+  background-color: #aac5e7;
+  color: white;
+}

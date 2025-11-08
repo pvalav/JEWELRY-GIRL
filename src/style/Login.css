@@ -1,0 +1,109 @@
+/* Asegura que la vista ocupe toda la pantalla */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fondo blanco perla */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f9f9f4; /* blanco perla suave */
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Caja del login */
+.login-box {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+/* Título */
+.login-title {
+  text-align: center;
+  color: #295f98; /* azul elegante */
+  margin-bottom: 1.5rem;
+}
+
+/* Formulario */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.login-form label {
+  font-weight: 500;
+  color: #444;
+  font-size: 0.9rem;
+}
+
+/* Campos de entrada azul clarito */
+.login-form input {
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #a3c7e7;
+  background-color: #e8f1fb; /* azul claro */
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.login-form input:focus {
+  border-color: #5a9bd8;
+  box-shadow: 0 0 5px rgba(90, 155, 216, 0.5);
+}
+
+/* Botón aceptar en la esquina inferior derecha */
+.login-boton-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+/* Botón azul */
+.btn-aceptar {
+  background-color: #5a9bd8;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-aceptar:hover {
+  background-color: #417cbf;
+}
+
+/* Texto de registro */
+.login-footer {
+  margin-top: 2rem;
+  text-align: center;
+  color: #555;
+}
+
+/* Enlace registrarse azul */
+.registrarse-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #5a9bd8;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.registrarse-link:hover {
+  color: #417cbf;
+}
